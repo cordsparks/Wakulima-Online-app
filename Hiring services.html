@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hiring services page</title>
+  <link rel="stylesheet" href="./Hiring services.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiring Services - Wakulima Online</title>
+    <link rel="stylesheet" href="Hiring services.css">
+    <script defer src="Hiring services.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Hiring Services</h1>
+        <a href="index.html" class="home-btn">🏠 Back to Home</a>
+    </header>
+
+    <section class="hiring">
+        <h2>Hire Equipment & Labor</h2>
+        <p>Select a service to hire and book a date.</p>
+
+        <div class="hire-options">
+            <div class="hire-card">
+                <img src="C:\Users\USER\Downloads\The app\The app\Images\Tractor.png" alt="Tractor for Hire">
+                <h3>Hire a Tractor</h3>
+                <button class="hire-btn" data-service="Tractor">Hire Now</button>
+            </div>
+
+            <div class="hire-card">
+                <img src="C:\Users\USER\Downloads\The app\The app\Images\labourers.png" alt="Casual Laborers">
+                <h3>Hire Casual Laborers</h3>
+                <button class="hire-btn" data-service="Casual Laborers">Hire Now</button>
+            </div>
+
+            <div class="hire-card">
+                <img src="C:\Users\USER\Downloads\The app\The app\Images\plowing.png" alt="Plowing Service">
+                <h3>Plowing Service</h3>
+                <button class="hire-btn" data-service="Plowing">Hire Now</button>
+            </div>
+
+            <div class="hire-card">
+                <img src="C:\Users\USER\Downloads\The app\The app\Images\spraying.png" alt="Spraying Service">
+                <h3>Spraying Service</h3>
+                <button class="hire-btn" data-service="Spraying">Hire Now</button>
+            </div>
+
+            <div class="hire-card">
+                <img src="C:\Users\USER\Downloads\The app\The app\Images\harvesting.png" alt="Harvesting Service">
+                <h3>Harvesting Service</h3>
+                <button class="hire-btn" data-service="Harvesting">Hire Now</button>
+            </div>
+        </div>
+
+        <!-- Booking Form (Hidden Initially) -->
+        <div id="booking-form" class="hidden">
+            <h2>Book a Service</h2>
+            <form id="hireForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" required>
+
+                <label for="service">Service Type:</label>
+                <input type="text" id="service" readonly>
+
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" required>
+
+                <button type="submit">Confirm Booking</button>
+                <button type="button" id="cancel">Cancel</button>
+            </form>
+        </div>
+
+    </section>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./Hiring services.js"></script>
+
+</body>
+</html>

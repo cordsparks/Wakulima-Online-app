@@ -1,0 +1,50 @@
+/* Form Container */
+#enquiryFormContainer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+/* Form Inputs */
+#enquiryForm input, #enquiryForm textarea, #enquiryForm button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button */
+#enquiryForm button {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+#enquiryForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Close Button */
+.close-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.close-btn:hover {
+    background-color: darkred;
+}

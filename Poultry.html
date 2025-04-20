@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Poultry</title>
+  <link rel="stylesheet" href="./Poultry.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poultry Sales</title>
+    <link rel="stylesheet" href="Poultry.css">
+</head>
+<body>
+
+    <div align="center">
+        <a href="index.html"><font size="5" face="Algerian">Home Page</font></a>
+    </div>
+
+    <p><i><u>Chicken (click on item to buy)</u></i></p>
+    <table width="87%" bgColor="#00FFFF" borderColorLight="#000000" border="2">
+        <tr>
+            <th>ITEM</th>
+            <th>SELLER/LOCATION</th>
+            <th>PRICE</th>
+            <th>CLICK TO ORDER</th>
+            <th>STATUS</th>
+            <th> Preview </th>
+        </tr>
+        <tr>
+            <td>KIENYEJI JOGOO</td>
+            <td>JEBIOR FARMS/NAKURU</td>
+            <td>1000</td>
+            <td><a href="#" class="order-btn">Enquire or Order</a></td>
+            <td><font color="#00cc00">AVAILABLE</font></td>
+            
+<td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Jogoo.png" width="116" height="91"></a></td>
+        </tr>
+        <tr>
+            <td>KIENYEJI HEN</td>
+            <td>JEBIOR FARMS/NAKURU</td>
+            <td>700</td>
+            <td><a href="#" class="order-btn">Enquire or Order</a></td>
+            <td><font color="#00cc00">AVAILABLE</font></td>
+
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Hen.png" width="116" height="91"></a></td>
+        </tr>
+        <tr>
+            <td>BROILER HEN</td>
+            <td>JEBIOR FARMS/NAKURU</td>
+            <td>700</td>
+            <td><a href="#" class="order-btn">Enquire or Order</a></td>
+            <td><font color="#00cc00">AVAILABLE</font></td>
+            
+<td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Broiler.png" width="116" height="91"></a></td>
+
+        </tr>
+    </table>
+
+    <p align="center">
+        <a href="mailto:muniuelsie@gmail.com">
+            <font color="#FFFFFF">Contact Us</font>
+        </a>
+    </p>
+
+    <!-- Hidden Enquiry Form -->
+    <div id="enquiryForm" class="form-popup">
+        <div class="form-container">
+            <h2>Enquiry Form</h2>
+            <p>Fill in the details below to enquire about this item.</p>
+
+            <label for="product">Product:</label>
+            <input type="text" id="product" readonly>
+
+            <label for="seller">Seller:</label>
+            <input type="text" id="seller" readonly>
+
+            <label for="price">Price:</label>
+            <input type="text" id="price" readonly>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <button onclick="submitEnquiry()">Submit</button>
+            <button class="cancel" onclick="closeForm()">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Dark Overlay -->
+    <div id="overlay"></div>
+
+    <script src="Poultry.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./Poultry.js"></script>
+
+</body>
+</html>

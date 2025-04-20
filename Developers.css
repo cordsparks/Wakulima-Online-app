@@ -1,0 +1,35 @@
+.developers-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.developer {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.developer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff9800;
+}
+
+.developer h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.developer p {
+    font-size: 16px;
+    color: #666;
+}
+
+.credit {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9800;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather and pests alert</title>
+  <link rel="stylesheet" href="./Weather and Pests alert.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & Pest Alerts - Wakulima Online</title>
+    <link rel="stylesheet" href="Weather and Pests alert.css">
+    <script defer src="Weather and Pests alert.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Weather & Pest Alerts</h1>
+        <a href="index.html" class="home-btn">🏠 Back to Home</a>
+    </header>
+
+    <section class="weather-container">
+        <h2>🌦️ Weather Updates</h2>
+        <p>Enter your location to get the latest weather conditions:</p>
+
+        <input type="text" id="locationInput" placeholder="Enter your city or region">
+        <button id="getWeatherBtn">Check Weather</button>
+        <div id="weatherResult"></div>
+
+        <button id="subscribeWeather">🔔 Subscribe for Alerts</button>
+    </section>
+
+    <section class="pest-container">
+        <h2>🐛 Pest Alerts</h2>
+        <p>Latest reports on pest outbreaks:</p>
+        <ul id="pestList">
+            <li>🚨 *Locust invasion in Nakuru – Spray pesticides.*</li>
+            <li>🚨 *Maize stalk borer in Western Kenya – Use early treatment methods.*</li>
+        </ul>
+
+        <h3>Report a Pest Outbreak</h3>
+        <input type="text" id="pestLocation" placeholder="Enter location">
+        <input type="text" id="pestType" placeholder="Pest Type (e.g. Armyworms)">
+        <button id="reportPest">📢 Report Pest</button>
+    </section>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./Weather and Pests alert.js"></script>
+
+</body>
+</html>

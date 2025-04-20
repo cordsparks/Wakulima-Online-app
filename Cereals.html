@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>cereals</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Cereals for Sale</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body bgcolor="#00FFFF">
+    <div align="center">
+        <a href="index.html"><font size="5" face="Algerian">Home Page</font></a>
+    </div>
+
+    <p><i><u>Dry Cereals (Click on an item to buy)</u></i></p>
+
+    <table width="87%" bgcolor="#00FFFF" border="2" height="579">
+        <tr>
+            <th>ITEM</th>
+            <th>SELLER/LOCATION</th>
+            <th>PRICE</th>
+            <th>CLICK TO ORDER</th>
+            <th>STATUS</th>
+            <th>PREVIEW</th>
+        </tr>
+        <tr>
+            <td><b>Dry Maize (90kg)</b></td>
+            <td>WUDA ENTERPRISES / ELDORET</td>
+            <td>Ksh 3,800</td>
+            <td><button onclick="openEnquiryForm('Dry Maize (90kg)')">Enquire or Order</button></td>
+            <td><font color="#00cc00">AVAILABLE</font></td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Dry maize.png" width="135" height="115"></a></td>
+        </tr>
+        <tr>
+            <td><b>Dry Beans (Kawairimu) (90kg)</b></td>
+            <td>KESHI ENTERPRISES / KIAMBU</td>
+            <td>Ksh 4,200</td>
+            <td><button onclick="openEnquiryForm('Dry Beans (Kawairimu) (90kg)')">Enquire or Order</button></td>
+            <td><font color="#00cc00">AVAILABLE</font></td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Kawairimu.png" width="150" height="113"></a></td>
+        </tr>
+        <tr>
+            <td><b>Dry Beans (Gatune) (90kg)</b></td>
+            <td>KESHI ENTERPRISES / KIAMBU</td>
+            <td>Ksh 4,200</td>
+            <td><button onclick="openEnquiryForm('Dry Beans (Gatune) (90kg)')">Enquire or Order</button></td>
+            <td><font color="#00cc00">AVAILABLE</font></td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Gatune.png" width="112" height="99"></a></td>
+        </tr>
+        <tr>
+            <td><b>Dry Peas (90kg)</b></td>
+            <td>KESHI ENTERPRISES / KIAMBU</td>
+            <td>Ksh 4,000</td>
+            <td><button onclick="openEnquiryForm('Dry Peas (90kg)')">Enquire or Order</button></td>
+            <td><font color="#00cc00">AVAILABLE</font></td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Dry peas.png" width="210" height="135"></a></td>
+        </tr>
+        <tr>
+            <td><b>Mwea Rice (90kg)</b></td>
+            <td>MWESH BASMATI ENTERPRISES / EMBU</td>
+            <td>Ksh 14,000</td>
+            <td><button onclick="openEnquiryForm('Mwea Rice (90kg)')">Enquire or Order</button></td>
+            <td><font color="#00cc00">AVAILABLE</font></td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Mwea rice.png" width="210" height="135"></a></td>
+
+        </tr>
+    </table>
+
+    <p align="center">
+        <a href="mailto:muniuelsie@gmail,com"><font color="#FFFFFF">Contact Us</font></a>
+    </p>
+
+    <!-- Enquiry Form Popup -->
+    <div id="enquiryFormContainer">
+        <button class="close-btn" onclick="closeEnquiryForm()">X</button>
+        <h3>Enquiry Form</h3>
+        <form id="enquiryForm">
+            <label for="selectedItem">Item:</label>
+            <input type="text" id="selectedItem" name="selectedItem" readonly>
+
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" rows="3"></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

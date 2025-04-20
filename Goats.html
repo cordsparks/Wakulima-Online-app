@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Goats</title>
+  <link rel="stylesheet" href="./Goats.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goat & Cereal Orders</title>
+    <link rel="stylesheet" type="text/css" href="Goats.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Goat Orders (Click to Enquire)</h2>
+        <table id="productTable">
+            <tr>
+                <th>ITEM</th>
+                <th>SELLER/LOCATION</th>
+                <th>PRICE</th>
+                <th>CLICK TO ORDER</th>
+                <th>STATUS</th>
+                <th>IMAGE</th>
+            </tr>
+            <tr>
+                <td>GOAT (2 YEARS OLD)</td>
+                <td>JEBIOR FARMS / NAKURU</td>
+                <td>5000</td>
+                <td><button class="order-btn" onclick="openForm('GOAT (2 YEARS OLD)', 'JEBIOR FARMS', 5000)">Enquire</button></td>
+                <td class="available">AVAILABLE</td>
+                <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Goat 2.png" width="143" height="143" alt="Goat Image"></a></td>
+            </tr>
+            <tr>
+                <td>GOAT (3 YEARS OLD)</td>
+                <td>MURENGI FARM / RUMURUTI</td>
+                <td>5000</td>
+                <td><button class="order-btn" onclick="openForm('GOAT (3 YEARS OLD)', 'MURENGI FARM', 5000)">Enquire</button></td>
+                <td class="available">AVAILABLE</td>
+                <td><a href="billing.htm"><C:\Users\USER\Downloads\The app\The app\Images\The goat 2.png" width="143" height="143" alt="Goat Image"></a></td>
+            </tr>
+            <tr>
+                <td>GOAT (5 YEARS OLD)</td>
+                <td>MURENGI FARM / RUMURUTI</td>
+                <td>7500</td>
+                <td><button class="order-btn" onclick="openForm('GOAT (5 YEARS OLD)', 'MURENGI FARM', 7500)">Enquire</button></td>
+                <td class="available">AVAILABLE</td>
+                <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Goat 5.png" width="143" height="107" alt="Goat Image"></a></td>
+            </tr>
+            <tr>
+                <td>GOAT (5 YEARS OLD)</td>
+                <td>ARENGI FARM / RUMURUTI</td>
+                <td>7000</td>
+                <td><button class="order-btn" onclick="openForm('GOAT (5 YEARS OLD)', 'ARENGI FARM', 7000)">Enquire</button></td>
+                <td class="available">AVAILABLE</td>
+                <td><img src="C:\Users\USER\Downloads\The app\The app\Images\The goat 5.png" width="143" height="107" alt="Goat"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Hidden Enquiry Form -->
+    <div id="enquiryForm" class="form-popup">
+        <div class="form-container">
+            <h2>Enquiry Form</h2>
+            <p>Fill in the details below to enquire about this item.</p>
+            
+            <label for="product">Product:</label>
+            <input type="text" id="product" readonly>
+
+            <label for="seller">Seller:</label>
+            <input type="text" id="seller" readonly>
+
+            <label for="price">Price:</label>
+            <input type="text" id="price" readonly>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <button onclick="submitEnquiry()">Submit</button>
+            <button class="cancel" onclick="closeForm()">Cancel</button>
+        </div>
+    </div>
+
+    <script src="Goats.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./Goats.js"></script>
+
+</body>
+</html>

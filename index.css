@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #228B22;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('farm-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Buttons Section */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #FFA500;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ff8c00;
+}
+
+/* Footer */
+footer {
+    background: #228B22;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}

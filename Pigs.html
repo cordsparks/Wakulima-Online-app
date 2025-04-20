@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pigs</title>
+  <link rel="stylesheet" href="./Pigs.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pigs for Sale</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="Pigs.js"></script>
+</head>
+
+<body>
+    <div align="center">
+        <a href="index.html" class="button">Home Page</a>
+    </div>
+
+    <p class="header">Pigs (Click on an item to buy)</p>
+
+    <table>
+        <tr>
+            <th>ITEM</th>
+            <th>SELLER/LOCATION</th>
+            <th>PRICE</th>
+            <th>CLICK TO ORDER</th>
+            <th>STATUS</th>
+            <th>PREVIEW</th>
+        </tr>
+        <tr>
+            <td><b>PIG (3 YEARS)</b></td>
+            <td>JUMAJI ENTERPRISES / THIKA</td>
+            <td>Ksh 15,000</td>
+            <td><button class="button" onclick="openEnquiryForm('PIG (3 YEARS)')">Enquire or Order</button></td>
+            <td class="available">AVAILABLE</td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Pig two.png" width="112" height="84" alt="Pig Image"></a></td>
+        </tr>
+        <tr>
+            <td><b>PIG (5 YEARS)</b></td>
+            <td>JUMAJI ENTERPRISES / THIKA</td>
+            <td>Ksh 20,000</td>
+            <td><button class="button" onclick="openEnquiryForm('PIG (5 YEARS)')">Enquire or Order</button></td>
+            <td class="available">AVAILABLE</td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Pig 5.png" width="112" height="84" alt="Pig Image"></a></td>
+        </tr>
+        <tr>
+            <td><b>PIG (3 YEARS)</b></td>
+            <td>MUSYOKI FARM / KIAMBU</td>
+            <td>Ksh 12,000</td>
+            <td><button class="button" onclick="openEnquiryForm('PIG (3 YEARS)')">Enquire or Order</button></td>
+            <td class="available">AVAILABLE</td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Pig 3.png" width="112" height="84" alt="Pig Image"></a></td>
+        </tr>
+        <tr>
+            <td><b>PIG (4 YEARS)</b></td>
+            <td>MUSYOKI FARM / KIAMBU</td>
+            <td>Ksh 25,000</td>
+            <td><button class="button" onclick="openEnquiryForm('PIG (4 YEARS)')">Enquire or Order</button></td>
+            <td class="sold-out">SOLD OUT</td>
+            <td><a href="billing.htm"><img src="C:\Users\USER\Downloads\The app\The app\Images\Pig 4.png" width="112" height="84" alt="Pig Image"></a></td>
+        </tr>
+    </table>
+
+    <p class="contact-section">Contact Us</p>
+
+    <!-- Enquiry Form Popup -->
+    <div id="enquiryFormContainer">
+        <button class="close-btn" onclick="closeEnquiryForm()">X</button>
+        <h3>Enquiry Form</h3>
+        <form id="enquiryForm">
+            <label for="selectedItem">Item:</label>
+            <input type="text" id="selectedItem" name="selectedItem" readonly>
+
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" rows="3"></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./Pigs.js"></script>
+
+</body>
+</html>

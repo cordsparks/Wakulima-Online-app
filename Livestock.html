@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Animal products</title>
+  <link rel="stylesheet" href="./Livestocks.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order animal products - Wakulima Online</title>
+    <link rel="stylesheet" href="Livestocks.css">
+    <script defer src="Livestocks.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Animal products</h1>
+        <p>Find and inquire about Animal products products easily</p>
+        <a href="index.html" class="home-btn">🏠 Back to Home</a>
+    </header>
+
+    <section class="form-container">
+        <h2>📝 Enquire an Item</h2>
+        <form id="marketplaceForm">
+            <label>First Name:</label>
+            <input type="text" id="firstname" required>
+
+            <label>Surname:</label>
+            <input type="text" id="surname" required>
+
+            <label>ID Number:</label>
+            <input type="text" id="idNumber" required>
+
+            <label>Mobile Number:</label>
+            <input type="text" id="mobileNumber" required>
+
+            <label>Select County:</label>
+            <select id="county">
+                <option value="">-- Select County --</option>
+                <option>NAIROBI</option>
+                <option>KIAMBU</option>
+                <option>NYANDARUA</option>
+                <option>NAKURU</option>
+                <option>UASIN GISHU</option>
+                <option>MOMBASA</option>
+            </select>
+
+            <label>Select Item Category:</label>
+            <select id="category">
+                <option value="">-- Select Category --</option>
+                <option>CATTLE</option>
+                <option>BEANS</option>
+                <option>MAIZE</option>
+                <option>PEAS</option>
+                <option>SHEEP</option>
+                <option>GOAT</option>
+                <option>PIGS</option>
+                <option>KIENYEJI HEN</option>
+                <option>LAYERS</option>
+                <option>FRESH FISH</option>
+                <option>CHICKEN</option>
+                <option>EGGS</option>
+                <option>FRESH PACKED MILK</option>
+                <option>YOGHURT PACKED MILK</option>
+                <option>PORK</option>
+                <option>MUTTON</option>
+                <option>BEEF</option>
+            </select>
+
+            <label>Quantity:</label>
+            <input type="text" id="quantity" required>
+
+            <fieldset>
+                <legend>Select Payment Method (Cash NOT Accepted):</legend>
+                <label><input type="radio" name="payment" value="mobile-prepay"> Mobile Money Prepay</label>
+                <label><input type="radio" name="payment" value="mobile-delivery"> Mobile Money (Pay on Delivery)</label>
+                <label><input type="radio" name="payment" value="visa"> Visa Card</label>
+                <label><input type="radio" name="payment" value="debit"> Debit Card</label>
+                <label><input type="radio" name="payment" value="others"> Others</label>
+            </fieldset>
+
+            <label>MPESA Code:</label>
+            <input type="text" id="mpesaCode" required>
+
+            <button type="submit">📩 Send Inquiry</button>
+        </form>
+    </section>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./Livestocks.js"></script>
+
+</body>
+</html>
